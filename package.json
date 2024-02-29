@@ -1,0 +1,27 @@
+{
+  "name": "osstea",
+  "version": "1.0.0",
+  "description": "project osstea",
+  "main": "index.js",
+  "scripts": {
+    "test": "git repository"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thornade05/osstea.git"
+  },
+  "keywords": [
+    "npm",
+    "osstea",
+    "tea"
+  ],
+  "author": "thornade05",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thornade05/osstea/issues"
+  },
+  "homepage": "https://github.com/thornade05/osstea#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
