@@ -1,5 +1,10 @@
 # documentation du projet osstea
 
+Installation:
+
+Install the required dependencies and libraries.
+
+Open page say hello and launch chronometer.
 ## Initialisation du projet
 
 ```bash
