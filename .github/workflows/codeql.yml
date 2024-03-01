@@ -1,3 +1,22 @@
+            - name: Setup Java
+  # You may pin to the exact commit or the version.
+  # uses: Fleshgrinder/setup-java@da5229ba146b252e0b14db4f3724f7f1f846bf66
+  uses: Fleshgrinder/setup-java@1.0.0
+  with:
+    # Specifies a version to use instead of reading it from a file, useful in matrix builds.
+    version: # optional
+    # Specifies the name to the file where the version should be read from.
+    version-filename: # optional
+    # Specifies the Java distribution (temurin, zulu, adopt, adopt-hotspot, adopt-openj9, liberica, microsoft, or corretto).
+    distribution: # optional
+    # Specifies the Java architecture (x86, x64, armv7, aarch64, or ppc64le).
+    architecture: # optional
+    # Specifies the Java package type (jdk, jre, jdk+fx, or jre+fx).
+    package-type: # optional
+    # Specifies if the latest available version should be resolved on each run, or not.
+    check-latest: # optional
+          
+
 # For most projects, this workflow file will not need changing; you simply need
 # to commit it to your repository.
 #
